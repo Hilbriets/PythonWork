@@ -1,0 +1,6 @@
+mylist=eval(input("Enter the elements in the array:"))
+i=0
+for number in mylist:
+    if(mylist[i]>0):
+        print (mylist[i],end=" ")
+    i+=1
